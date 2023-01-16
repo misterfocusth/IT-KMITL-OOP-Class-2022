@@ -12,5 +12,9 @@ public class Main {
         sila.sayHello();
         sila.sayName();
         sila.sayProfile();
+
+        Human focus = new Human("Focus", 18);
+        focus.sayHi();
+        focus.sayProfile();
     }
 }
