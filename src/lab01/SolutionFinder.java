@@ -23,7 +23,5 @@ public class SolutionFinder {
 
         System.out.println(x1);
         System.out.println(x2);
-
     }
-
 }
