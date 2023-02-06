@@ -15,6 +15,7 @@ public class Week02 {
     public static void main(String[] args) {
         questionEight();
         questionNine();
+        aaa();
     }
 
     private static void questionEight() {
@@ -45,5 +46,15 @@ public class Week02 {
         }
 
         System.out.println("");
+    }
+
+    private static void aaa() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("ระบุความสูงของตึก : ");
+        int nums = scanner.nextInt();
+
+        for (int x = 0; x < nums; x++) {
+            System.out.println("#-#-#-#-#");
+        }
     }
 }
