@@ -55,6 +55,5 @@ public class Plane extends Vehicle {
         c2.showCarInfo();
         c2.move();
         c2.showCarInfo();
-
     }
 }

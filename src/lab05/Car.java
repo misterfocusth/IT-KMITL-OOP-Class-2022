@@ -21,7 +21,7 @@ public class Car extends Vehicle {
     }
 
     public void showCarInfo() {
-        System.out.println("Car engine is " + this.typeEngine);
+        System.out.println("Car engine is " + this.typeEngine + ".");
         super.showInfo();
     }
 
