@@ -2,26 +2,21 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package lab05_02;
+package lab06;
 
 /**
  *
  * @author misterfocusth
  */
-public class Player {
+public class Wallet {
 
-    private String name;
-    private String team;
+    private double balance;
 
-    public void setName(String n) {
-        this.name = n;
+    public double getBalance() {
+        return this.balance;
     }
 
-    public String getName() {
-        return this.name;
-    }
-
-    public void setTeam(String t) {
-
+    public void setBalance(double balance) {
+        this.balance = balance;
     }
 }

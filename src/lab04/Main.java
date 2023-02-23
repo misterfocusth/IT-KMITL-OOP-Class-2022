@@ -34,16 +34,16 @@ public class Main {
 //        f2.LowestTermFrac();
 //        System.out.println("After : " + f2.toFraction());
 
-//        Cat c = new Cat();
-//        c.defineCat("Mew", "White");
-//        c.speak();
-//
-//        c.upWeight(5);
-//        c.upHeight(10);
-//        c.speak();
-//
-//        c.upWeight(-5);
-//        c.upHeight(-10);
-//        c.speak();
+        Cat c = new Cat();
+        c.defineCat("Mew", "White");
+        c.speak();
+
+        c.upWeight(5);
+        c.upHeight(10);
+        c.speak();
+
+        c.upWeight(-5);
+        c.upHeight(-10);
+        c.speak();
     }
 }
