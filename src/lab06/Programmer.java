@@ -24,6 +24,7 @@ public class Programmer extends Employee {
 
     public void coding(char str) {
         this.coding(String.valueOf(str));
+
     }
 
     public int getHappiness() {

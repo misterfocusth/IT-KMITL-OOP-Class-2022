@@ -26,10 +26,9 @@ public class SeniorProgrammer extends Programmer {
         }
     }
 
-    public void coding(char str) {
-        this.coding(String.valueOf(str));
-    }
-
+//    public void coding(char str) {
+//        this.coding(String.valueOf(str));
+//    }
     public void compliment(Programmer p) {
         p.setHappiness(p.getHappiness() + 20);
         System.out.println(p.getName() + " in a good mood");
