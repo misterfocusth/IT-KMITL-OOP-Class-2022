@@ -11,7 +11,9 @@ package lab01;
 public class SolutionFinder {
 
     public static void main(String[] args) {
-        double a = 4, b = 8, c = 3;
+        double a = 4;
+        double b = 8;
+        double c = 3;
 
         double x1_top = (-b) + Math.sqrt(Math.pow(b, 2) - 4 * a * c);
         double x1_bottom = 2 * a;
