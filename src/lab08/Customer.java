@@ -14,7 +14,7 @@ public class Customer {
 
     private String firstName;
     private String lastName;
-    private ArrayList acct;
+    private ArrayList<Account> acct;
     private int numOfAccount;
 
     public Customer() {
@@ -28,7 +28,7 @@ public class Customer {
     }
 
     public Account getAccount(int index) {
-        return (Account) this.acct.get(index);
+        return this.acct.get(index);
     }
 
     public void addAcount(Account acct) {
